@@ -1,6 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+/* ----------------- */
+/* Styles for Navbar */
+/* ----------------- */
+
+#nav_container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #636c79;
+}
+
+.nav_logo{
+    width: 15%;
+}
+
+.navLogo{
+    margin-left: 40%;
+    height: 40px;
+    width: 120px;
+}
+
+.nav_links{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40px;
+    margin-right: 5%;
+}
+
+.nav_button{
+    width: 15%;
+}
+
+.navBtn{
+    margin-left: 25%;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+}
+
+/* -------------------------- */
+/* styles for title conatiner */
+/* -------------------------- */
+
+.title_container{
+    padding: 2%;
+    display: flex;
+    background-color:  #636c79;
+    color: #fff;
+}
+
+.title_img{
+    width: 50%;
+}
+
+.titleImg{
+    margin-left: 22%;
+    height: 550px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.title_content{
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.title_heading{
+    font-size: 4.5rem;
+    line-height: 80px;
+}
+
+.title_subs{
+    margin-top: 3%;
+    line-height: 35px;
+    color: #919295;
+}
+
+.title_input{
+    margin-top: 5%;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.emailImg{
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
+}
+
+.titleInput{
+    width: 250px;
+    height: 50px;
+    margin-left: 1%;
+    border: none;
+}
+
+.titleBtn{
+    margin-left: 4%;
+    height: 40px;
+    width: 170px;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    background: #8bb7a2;
+}
+
+/* ---------------- */
+/* Styles for Stats */
+/* ---------------- */
+
+.stats_container{
+    height: 100vh;
+    margin-bottom: 13%;
+}
+
+.stats_heading{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.stats{
+    margin: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat_no{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+
+.stat_subs{
+    font-size: 1rem;
+}
+
+.stats_image{
+    padding: 0 10%;
+    width: 100%;
+    height: 70%;
+}
+
+.statImg{
+    height: 100%;
+    width: 100%;
+}
+
+/* --------------------*/
+/* styles for features */
+/* --------------------*/
+
+.features_container{
+    width: 80%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.features_heading{
+    margin-bottom: 8%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.feature{
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.feature_content{
+    margin: auto;
+    width: 50%;
+}
+
+.feat_con_heading{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.feat_con_content{
+    padding-right: 15%;
+    font-size: 20px;
+    line-height: 35px;
+    color: #919295;
+}
+
+.feat_con_btn{
+    margin-top: 4%;
+    height: 55px;
+    width: 200px;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    background: #8bb7a2;
+}
+
+.feature_img{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.featureImg{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.pd-0{
+    padding: 0;
 }
