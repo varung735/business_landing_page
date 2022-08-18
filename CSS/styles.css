@@ -250,3 +250,73 @@ li{
 .pd-0{
     padding: 0;
 }
+
+/* --------------- */
+/* styles for team */
+/* --------------- */
+
+.teams_container{
+    margin-top: 15%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teams_content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.teams_heading{
+    font-size: 50px;
+}
+
+.teams_subs{
+    font-size: 1.4rem;
+    line-height: 35px;
+    color: #636c79;
+}
+
+.teams_cards{
+    margin: 0 10%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    width: 350px;
+}
+
+.card_heading{
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.card_body{
+    color: #636c79;
+    line-height: 25px;
+}
+
+.teamImg{
+    height: 400px;
+    width: 350px;
+}
+
+.teams_cards_btn{
+    margin: auto;
+    height: 55px;
+    width: 200px;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    background: #8bb7a2; 
+}
